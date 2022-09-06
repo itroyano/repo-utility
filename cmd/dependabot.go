@@ -7,10 +7,10 @@ import (
 
 // TODO: provide godoc compatible comment for dependabotCmd
 var dependabotCmd = &cobra.Command{
-	Use: "actions",
-	// TODO: provide Short description for actions command
+	Use: "dependabot",
+	// TODO: provide Short description for dependabot command
 	Short: "Generate Dependabot configuration for the repo.",
-	// TODO: provide Long description for actions command
+	// TODO: provide Long description for dependabot command
 	Long: `The 'dependabot' command generates dependabot configuration for the repo.
 
 Usage:
